@@ -4,6 +4,7 @@ const fs = require("fs");
 
 var app = express();
 
+var port = process.env.PORT || 3000;
 
 hbs.registerHelper("getCurrentYear", () => {
   return new Date().getFullYear();
@@ -65,7 +66,7 @@ app.get("/bad", (req, res) => {
   res.send({errorMessage: "Error: Unable to handle request!"});
 });
 
-app.listen(3000, () => {console.log("Express is Listening on port 3000")});
+app.listen(port, () => {console.log("Express is Listening on port 3000")});
 
 
 // https://help.github.com/articles/connecting-to-github-with-ssh/

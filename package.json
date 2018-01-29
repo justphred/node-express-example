@@ -7,9 +7,13 @@
     "express": "^4.16.2",
     "hbs": "^4.0.1"
   },
+  "engines" : {
+    "node": "9.3.0"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "just phred",
   "license": "ISC"
