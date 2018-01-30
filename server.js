@@ -66,7 +66,7 @@ app.get("/bad", (req, res) => {
   res.send({errorMessage: "Error: Unable to handle request!"});
 });
 
-app.listen(port, () => {console.log("Express is Listening on port 3000")});
+app.listen(port, () => {console.log(`Express is Listening on port ${port}`)});
 
 
 // https://help.github.com/articles/connecting-to-github-with-ssh/
