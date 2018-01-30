@@ -72,6 +72,13 @@ app.listen(port, () => {console.log(`Express is Listening on port ${port}`)});
 // https://help.github.com/articles/connecting-to-github-with-ssh/
 
 
+// This application on Heroku:
+// remote:        https://whispering-harbor-41752.herokuapp.com/ deployed to Herok
+// remote:
+// remote: Verifying deploy... done.
+// To https://git.heroku.com/whispering-harbor-41752.git
+//  * [new branch]      master -> master
+
 // Heroku node.js example demo url:  https://floating-scrubland-82548.herokuapp.com/ deployed to Heroku
 // Heoku commands:
 // heroku ps  - view number of dyno "engines" that are running your app - scale
