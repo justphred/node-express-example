@@ -60,6 +60,15 @@ app.get("/about", (req, res) => {
     });
 });
 
+app.get("/projects", (req, res) => {
+  res.render("projects.hbs",
+    {
+      pageTitle: "My Projects",
+      pageMessage: "Check out this stuff!!"
+      // currentYear: new Date().getFullYear()
+    });
+});
+
 
 app.get("/bad", (req, res) => {
   // res.send("<h1>Bad request ... could not find that page!</h1>");
